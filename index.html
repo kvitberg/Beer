@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+<body>
+
+<div data-role="page" id="pageone">
+  <div data-role="main" class="ui-content">
+  <h2>My Beer</h2>
+  <p id = "intro">List of all my beers</p>
+  <ul data-role="listview" data-autodividers="true" data-inset="true">
+  <form class="ui-filterable">
+      <input id="myFilter" data-type="search">
+    </form>
+    <div id="Beers">
+        <ul data-role="listview" data-filter="true" data-input="#myFilter" data-autodividers="true" data-inset="true">
+            
+        <!--A-->
+       
+        <li><img src="img/Flags/bv.svg" class="ui-li-icon">Aas - Gull</img></li>
+        
+        <li><img src="img/Flags/fr.svg" class="ui-li-icon">Adel Scott</img></li>
+        <li><img src="img/Flags/us.svg" class="ui-li-icon">Alaskan - Freeride Ale</img></li>
+        <li><img src="img/Flags/es.svg" class="ui-li-icon">Alhambra</img></li>
+        <li><img src="img/Flags/us.svg" class="ui-li-icon">Anchor Porter</img></li>
+        <!--B-->
+        <li><img src="img/Flags/bv.svg" class="ui-li-icon">Berentsens - Jule Avec</img></li>
+        <li><img src="img/Flags/cz.svg" class="ui-li-icon">Bernard</img></li>
+        <li><img src="img/Flags/ug.svg" class="ui-li-icon">Bell</img></li>
+        <li><img src="img/Flags/it.svg" class="ui-li-icon">Birra Moretti</img></li>
+        <li><img src="img/Flags/it.svg" class="ui-li-icon">Birra Moretti - La Rosa</img></li>
+        <li><img src="img/Flags/it.svg" class="ui-li-icon">Bierra Venezia</img></li>
+        <li><img src="img/Flags/is.svg" class="ui-li-icon">Black Death</img></li>
+        <li><img src="img/Flags/be.svg" class="ui-li-icon">Blanche deNamur</img></li>
+        <li><img src="img/Flags/fr.svg" class="ui-li-icon">Blond du Mont Blank</img></li>
+        <li><img src="img/Flags/no.svg" class="ui-li-icon">Borg - Bokkøl</img></li>
+        <li><img src="img/Flags/us.svg" class="ui-li-icon">Breckenridge - Summer Bright Ale</img></li>
+        <li><img src="img/Flags/us.svg" class="ui-li-icon">Brew Dog - Alpha Dog</img></li>
+        <li><img src="img/Flags/us.svg" class="ui-li-icon">Brew Dog - Lost Dog</img></li>
+        <li><img src="img/Flags/sg.svg" class="ui-li-icon">Brewerkz Beer </img></li>
+        <li><img src="img/Flags/us.svg" class="ui-li-icon">Brooklyn Brand - East India Pale Ale</img></li>
+        <li><img src="img/Flags/us.svg" class="ui-li-icon">Budweiser</img></li>
+        <li><img src="img/Flags/cz.svg" class="ui-li-icon">Budweiser Budvar</img></li>
+        <!--C-->
+        <li><img src="img/Flags/nl.svg" class="ui-li-icon">Canta Lupulus</img></li>
+        <li><img src="img/Flags/za.svg" class="ui-li-icon">Cape Brewing Co</img></li>
+        <li><img src="img/Flags/dk.svg" class="ui-li-icon">Carlsberg</img></li>
+        <li><img src="img/Flags/za.svg" class="ui-li-icon">Castle</img></li>
+        <li><img src="img/Flags/th.svg" class="ui-li-icon">Chang</img></li>
+        <li><img src="img/Flags/be.svg" class="ui-li-icon">Chakra</img></li>
+        <li><img src="img/Flags/ug.svg" class="ui-li-icon">Club - Pilsner</img></li>
+        <li><img src="img/Flags/us.svg" class="ui-li-icon">Coors Light</img></li>
+        <li><img src="img/Flags/mx.svg" class="ui-li-icon">Corona Extra</img></li>
+        <li><img src="img/Flags/no.svg" class="ui-li-icon">Christianssand Bryggeri</img></li>
+        <li><img src="img/Flags/be.svg" class="ui-li-icon">Cuvèe des Jacobins - Rouge</img></li>
+        
+        <!--D-->
+        <li><img src="img/Flags/no.svg" class="ui-li-icon">Dahls - Juleøl</img></li>
+        <li><img src="img/Flags/es.svg" class="ui-li-icon">Damm Lemon</img></li>
+        <li><img src="img/Flags/be.svg" class="ui-li-icon">Delirium - Tremens</img></li>
+        <li><img src="img/Flags/es.svg" class="ui-li-icon">Dorada</img></li>
+        <li><img src="img/Flags/hu.svg" class="ui-li-icon">Dreher</img></li>
+        <li><img src="img/Flags/de.svg" class="ui-li-icon">Duff Beer</img></li>
+        
+        <!--E-->
+        <li><img src="img/Flags/tr.svg" class="ui-li-icon">Efes</img></li>
+        <li><img src="img/Flags/de.svg" class="ui-li-icon">Erdinger</img></li>
+        <li><img src="img/Flags/es.svg" class="ui-li-icon">Estrella Damm</img></li>
+        <li><img src="img/Flags/es.svg" class="ui-li-icon">Estrella Daura</img></li>
+        <!--F-->
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Falcon</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Fat Tire - Amber Ale</img></li>
+        <li><img src="img/Flags/gr.svg" class="ui-li-icon">Fix - Hellas</img></li>
+        <li><img src="img/Flags/us.svg" class="ui-li-icon">Flying Dog - Gonzo Imperial Porter</img></li>
+        <li><img src="img/Flags/us.svg" class="ui-li-icon">Flying Dog - In Heat Weath Hefeweizen</img></li>
+        <li><img src="img/Flags/no.svg" class="ui-li-icon">Frydenlund</img></li>
+        <li><img src="img/Flags/no.svg" class="ui-li-icon">Frydenlund - Bayerøl</img></li>
+        <li><img src="img/Flags/no.svg" class="ui-li-icon">Frydenlund - Juleøl</img></li>
+        <!--G-->
+        <li><img src="img/Flags/no.svg" class="ui-li-icon">Gaardsbryggeri - Kvek</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Gambrinous</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Gotands Bryggeri - Red October</img></li>
+        <li><img src="img/Flags/be.svg" class="ui-li-icon">Grimbergen - Doubel Ambrèe</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Grolsh</img></li>
+        <li><img src="img/Flags/ie.svg" class="ui-li-icon">Guinness</img></li>
+        <!--H-->
+        <li><img src="img/Flags/no.svg" class="ui-li-icon">Haand Bryggeriet - 'Dark Force'</img></li>
+        <li><img src="img/Flags/no.svg" class="ui-li-icon">Haand Bryggeriet - 'Bestefar'</img></li>
+        <li><img src="img/Flags/no.svg" class="ui-li-icon">Hansa - Fatøl</img></li>
+        <li><img src="img/Flags/za.svg" class="ui-li-icon">Hansa - Marzen Gold</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Heineken</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Heyday</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Hoegaarden</img></li>
+        <!--I-->
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Innis & Gunn</img></li>
+        <!--J--> 
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Jack Black - Lumber Jack</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Jacobsen - Dark Lager</img></li>
+        <!--K-->
+        <li><img src="img/Flags/no.svg" class="ui-li-icon">Kinn - Pilegrim</img></li>
+        <li><img src="img/Flags/no.svg" class="ui-li-icon">Kinn - Sjelefred</img></li>
+        <li><img src="img/Flags/jp.svg" class="ui-li-icon">Kirin Ichiban</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Kjellerpils</img></li>
+        <li><img src="img/Flags/us.svg" class="ui-li-icon">Kona - Big Wave</img></li>
+        <li><img src="img/Flags/us.svg" class="ui-li-icon">Kona - Longboard</img></li>
+        <li><img src="img/Flags/fr.svg" class="ui-li-icon">Kronenbourg 1664</img></li>
+        <!--L-->
+        <li><img src="img/Flags/no.svg" class="ui-li-icon">Lade Gaars Brygghus - Pilsner</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Lapin Kulta</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Leffe - Brown</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Lindemans - Gueuze</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Lucky Buddah</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Lundetangen</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Lysholmer - Double Ice</img></li>
+        <!--M-->
+        <li><img src="img/Flags/gr.svg" class="ui-li-icon">Magnus</img></li>
+        <li><img src="img/Flags/gr.svg" class="ui-li-icon">Magnus Magister</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Mahou - Negra</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Mariestads</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Marston's - Oyster Stout</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Meantime - Raspberry Wheat</img></li>
+        <li><img src="img/Flags/us.svg" class="ui-li-icon">Miller</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Morland</img></li>
+        <li><img src="img/Flags/es.svg" class="ui-li-icon">Moritz</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">motörhead</img></li>
+        <li><img src="img/Flags/gr.svg" class="ui-li-icon">Mythos</img></li>
+        <!--N-->
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Nastro Azzurro</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Neumarkter - Lammsbrau</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">New Castle - Brown Ale </img></li>
+        <li><img src="img/Flags/ug.svg" class="ui-li-icon">Nile - Special</img></li>
+        <!--O-->
+        <!--P-->
+        <li><img src="img/Flags/us.svg" class="ui-li-icon">Pabst Blue Ribbon</img></li>
+        <li><img src="img/Flags/br.svg" class="ui-li-icon">Palma Louca</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Plastic Fantastic - Pistonhead</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Post Road - Pumpkin Ale</img></li>
+        <!--Q-->
+        <!--R-->
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Red Stripe</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Rhub IPA</img></li>
+        <li><img src="img/Flags/no.svg" class="ui-li-icon">Ringnes</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Rouge - Voodoo</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Rugen Brau</img></li>
+        <!--S-->
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Salitos</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">San Miguel</img></li>
+        <li><img src="img/Flags/no.svg" class="ui-li-icon">Seidel</img></li>
+        <li><img src="img/Flags/th.svg" class="ui-li-icon">Singha</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Spendrups - Old Gold</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Spitfire</img></li>
+        <li><img src="img/Flags/hu.svg" class="ui-li-icon">Soproni</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Stella Artois</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">St. Peters - Cream Stout</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Svyturys - Ekstra</img></li>
+        <!--T-->
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Theresianer</img></li>
+        <li><img src="img/Flags/sg.svg" class="ui-li-icon">Tiger</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Trappistes Rochefort</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Iron Maiden - Trooper</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Tsingtao</img></li>
+        <li><img src="img/Flags/dk.svg" class="ui-li-icon">Tuborg Classic</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Tucher</img></li>
+        <li><img src="img/Flags/ug.svg" class="ui-li-icon">Tusker</img></li>
+        <!--U-->
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Ugly Duck Brewing Co - Miami Vice</img></li>
+        <!--V-->
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">VB</img></li>
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Vedett</img></li>
+        <!--W-->
+         <li><img src="img/Flags/za.svg"  class="ui-li-icon">Windhoek</img></li>
+        <!--X-->
+        <!--Y-->
+        <!--Z-->
+        <li><img src="http://i.imgur.com/AP2MEbh.png" class="ui-li-icon">Zywiec</img></li>
+        <!--Æ-->
+        <!--Ø-->
+        <!--Å-->
+        <!--1-->
+        <!--2-->
+        <!--3-->
+        <!--4-->
+        <!--5-->
+        <!--6-->
+        <!--7-->
+        <!--8-->
+        <!--9-->
+        <li><img src="img/Flags/us.svg" class="ui-li-icon">90 shilling</img></li>
+     
+        
+        
+        
+        
+        <!--
+        br  = Brasil
+        bv = Nor
+        cn = Kina
+        cz = Tjekkia
+        de = Tyskland
+        es = Spania
+        gb = England
+        it = Italy
+        is = Island
+        fr = France
+        ie = Irland
+        it = Italia
+        jp = Japan
+        za = SA
+        -->
+    
+      </ul>
+    </div>
+    
+  
+  </div>
+</div> 
+
+<script>
+    
+    var count =  $("#Beers ul").children().length;
+    var element = document.getElementById("intro");
+    element.innerHTML = "List of all my <strong>" + count + "</strong> beers";
+    
+</script>
+
+</body>
+</html>
